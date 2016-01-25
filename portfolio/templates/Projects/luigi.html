@@ -1,0 +1,82 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luigi's Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/luigi.css' %}">
+   <style type="text/css">
+    @font-face { 
+    font-family: 'mario'; 
+    src:local('mario Regular'),
+        local('mario'), 
+        url({% static 'font/SuperMario256.ttf' %}) format('truetype');
+    } 
+</style>
+</head>
+<body>
+
+    <div class="container">
+
+    <div class="header">
+        <div class="heading">
+        
+            <h1>Luigi's Bootstrap</h1>
+            <p>02 OCTOBER 2015 on Bootstrap, HTML, CSS by: Shaylee Hansen</p>
+        </div>
+        <p>( Re-created Bootstrap Webpage )</p>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-8 col-md-8 col-lg-8 rectangle_yellow" id="luigi">
+            
+            <h2>Luigi</h2>
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-8 col-md-8 col-lg-8 rectangle_red">
+            <img id="big_luigi" src="http://coursework.codingcamp.us/content/images/2015/07/luigi.png">
+        </div>
+    </div>
+
+    <div class="row">
+       <div class="col-sm-8 col-md-8 col-lg-8"> 
+        <div class="about_me">
+            <h2>ABOUT ME</h2>
+            <p>My name is Luigi.  I'm a second rate kind of hero no one takes me seriously but that is ok I guess</p>
+        </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-8 col-md-8 col-lg-8 rectangle_yellow">
+           
+                <img id="mushroom" src="http://coursework.codingcamp.us/content/images/2015/07/greenmushroom.png" height="50px" width="50px">
+               
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>  
+</body>
+</html>

@@ -1,0 +1,34 @@
+body{
+   background-color: #E4E4E4;
+    font-family: 'Averia Libre', cursive;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#stuck{
+    float: right;
+    margin-right: 20px;
+}
+#idea{
+    margin-left: 20px;
+    margin-top: 8px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+ul li{
+    display: inline;
+}
+li{
+    padding: 5px;
+}
+#lisbeth{
+    min-width: 100%;
+    opacity: 0.2;
+    
+
+}

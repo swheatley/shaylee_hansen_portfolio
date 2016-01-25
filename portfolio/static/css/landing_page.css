@@ -1,0 +1,311 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+    text-align: center;
+
+}
+.navlinks{
+    float: right;
+    display: inline;
+    padding-top: 15px;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    line-height: 1;
+    background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+}
+
+
+li{
+    display: inline;
+    margin-right: 20px;
+
+}
+header{
+    
+    background-color: white;
+    padding: 15px;
+}
+.active{
+    color: #4c5058;
+    font-weight: 600;
+}
+li:hover{
+    color: #4c5058;
+}
+
+
+/* This is where my code goes to hell in a handbasket */
+
+.introduction, .content{
+    background-image: url("{{ STATIC_URL }}images/landing-page-images/background_pic.jpg");
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 45rem;
+    overflow: auto;
+    text-align: center;
+   
+}
+.top-navigation{
+
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.top-navigation>.content{
+    margin: 0 auto;
+    width: 970px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+/*This is correct */
+.introduction h1{
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+    font-weight: 300;
+}
+.introduction h3{
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.button{
+    text-shadow: none;
+    background-color: #f15a29;
+    color: white;
+    font-size: 1.2rem;
+    padding: 16px 26px;
+    border-style: none;
+    border-radius: 4px;
+    line-height: 1.33;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    
+}
+.button:hover{
+    background-color: #d9400e;
+}
+
+
+/*   This does funky stuff    */
+
+.cases .content{
+    width: 33.3333333%;
+    display: inline;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+   
+    height: 4em;
+    container: flex;
+    text-align: center;
+}
+.cases{
+    background-color: #fff;
+    padding-bottom: 5rem;
+    max-width: 1200px;
+}
+
+ .devices img{
+    padding: 0 35px 0 35px;
+    background-color: white;
+    vertical-align: baseline;
+    
+}
+.devices li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 60px;
+}
+.caption {
+    padding: 8px;
+    font-size: 1.5em;
+}
+.cases h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 2.5em;
+    vertical-align: baseline;
+}
+.devices h3{
+    display: inline;
+    padding: 10px;
+    margin-bottom: 20px;
+
+  
+
+}
+
+
+footer{
+
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.icons{
+
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.social .twitter{
+    color: #55acee;
+}
+.social .facebook{
+    color: #4c66a4;
+
+}
+.social .instagram{
+    color: #3f729b;
+}
+.social h4{
+    padding: 20px;
+    font-weight: bold;
+    font-color: black;
+}
+.copy{
+
+    font-size: 12px;
+    font-weight: 300;
+    
+}   
+   
+
+

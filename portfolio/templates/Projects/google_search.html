@@ -1,0 +1,61 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>build this webpage</title>
+	<link rel="stylesheet" type="text/css"href="{% static 'css/google_search.css'%}">
+</head>
+<body>
+ <header>
+ 	<div class="header">
+	<div class="google">
+		<h1>
+			<img width="75" height="50" src="{% static 'images/Googlelogo.png' %}" alt="Google">
+		</h1>
+	</div>
+	
+</div>
+</header>
+
+	<div class="search_categories">
+		<ul>
+			<li><a href="#">Web</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Shopping</a></li>
+			<li><a href="#">Images</a></li>
+			<li><a href="#">More</a></li>
+			<li><a href="#">Search Tools</a></li>
+
+		</ul>
+	</div>
+
+	<hr>
+
+	<div class="search_results">
+		<ul>
+			<li><a href="#">With zero coding experience, artist building 180 webpages...</a></li>
+			<li><a href="#">Build Your Own Webpage | Codecademy </a></li>
+			<li><a href="#">How Do We Know They Need This Webpage? | Inc.com</a></li>
+			<li><a href="#">How I Built This Website - Phil's Old Radios</a></li>
+			<li><a href="#">How to Make a Website - Step-by-Step Guide for Beginners</a></li>
+			<li><a href="http://www.theodinproject.com/">The Odin Project: Learn Web Development Free Using....</a></li>
+			<li><a href="http://www.freecodecamp.com/">Free Code Camp: Learn to Code JavaScript and get a....<a/></li>
+		</ul>
+	</div>
+
+
+	<footer>
+		<div class="hspt">
+			<ul>
+				<li>Help</li>
+				<li>Send feedback</li>
+				<li>Privacy</li>
+				<li>Terms</li>
+			</ul>
+		</div> 
+	</footer>
+</body>
+</html>

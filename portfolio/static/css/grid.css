@@ -1,0 +1,47 @@
+
+body{
+    margin: 20% 25% 20% 25%;
+}
+
+#light_pink, .dark_pink, .blue, #green, #orange{
+
+    
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    left: 45%;   
+}
+
+
+#light_pink{
+    background-color: #F5C6D6;
+    width: 500px;
+   
+
+
+}
+.dark_pink{
+    background-color: #EE2E84;
+    border: 10px;
+    width: 122px;
+
+
+}
+.blue{
+    background-color: #85CFD8;
+    border-top: 5px;
+    border-bottom: 5px;
+    width: 249px;
+
+}
+#green{
+    background-color: #8DC63F;
+    width: 400px;
+
+}
+#orange{
+    background-color: #E76E34;
+    border-top: 5px;
+    width: 98px;
+
+}

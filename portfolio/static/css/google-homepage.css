@@ -1,0 +1,78 @@
+body{
+    font: small Arial,sans-serif;
+    color: #222;
+
+}
+header{
+    float: center;
+}
+.banner li{
+
+    
+    float: right;
+    padding-right: 20px;
+    list-style-type: none;
+    display: inline-block;
+
+    
+}
+
+ img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 260px;
+        
+}
+#searchbox{
+    padding-top: 20px;
+}
+form{
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+#buttons{
+    text-align: center;
+    padding: 10px;
+    font-family: verdana;
+
+    
+}
+a:link{
+    text-decoration: none;
+    font-family: verdana, sans-serif;
+    color: black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+ #bar{
+    
+    padding-top: 200px;
+
+}
+
+#left li{
+    
+    float: left;
+    margin: 20px;
+        
+}
+ #right li{
+    
+    float: right;
+    margin: 20px;
+    text-align: right;
+
+    
+}
+li{
+    display: inline;
+    padding: 10px;
+}

@@ -1,0 +1,65 @@
+body{
+    margin-top: 125px;
+    font-family: mario;
+}
+@font-face{
+    font-family: mario;
+    src: local ('mario'),
+         url({% static 'font/SuperMario256.ttf' %});
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 46px;
+}
+p{
+    font-family: Arial;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.heading{
+    margin-top: 5px;
+    padding:10px;
+    
+}
+.about_me p{
+    font-size: 24px;
+    font-family: Arial;
+    font-style: bolder;
+    margin-right:65px;
+    margin-left:65px;
+}
+.heading p{
+    
+    font-size: 10px
+}
+.rectangle_yellow{
+    background-color: yellow;
+    height: 100px;
+    color: red;
+    padding: 20px;
+
+    
+}
+.rectangle_red{
+    background-color: red;
+    height: 400px;
+
+
+}
+.about_me{
+    text-align: center;
+    color: red;
+}
+
+#mushroom{
+    float: right;
+}
+#big_luigi{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}

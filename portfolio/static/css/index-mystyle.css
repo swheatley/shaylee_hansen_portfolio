@@ -1,0 +1,289 @@
+body{
+    width: 100%;
+    margin: 25px;
+    font-family: 'Shadows Into Light', cursive !important ;
+
+}
+
+.photo{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #DCF233;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    float: right;
+}
+ #title{
+
+    color: white;
+    display: inline-block;
+    font-size: 5em;
+    margin-left: 20px;
+    text-align: left;
+  
+}
+
+header{
+    background-image: url( ../images/header.gif);
+    width: 103%;
+    height: 400%;
+    border: 20px solid black;
+    padding: 10px;
+
+}
+.nav-bar li{
+    display: inline;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 50px;
+    margin-left: 20px;
+    
+}
+.nav-bar ul{
+
+    background-color: #DCF233;
+    margin-top: 0.5px;
+    padding: 10px;
+    text-align: center;
+    width: 103%;
+    
+}
+
+.headings{
+    display: inline-block;
+    }
+li a:hover{
+    text-decoration: none;
+    color: black;
+}
+li a{
+    color: black;
+}
+/* Middle Section */
+
+
+section{
+    text-align: center;
+}
+h2{
+    color: #F3137F !important ;
+    font-size: 4em !important;
+    margin-bottom: 5% !important ;
+    margin-top: 5% !important ;
+    border: solid black 5px;
+    border-radius: 5%;
+    padding: 10px;
+
+
+    
+}
+.projects{
+    list-style: none;
+    
+}
+.projects li{
+    display: inline;
+    padding: 100px;
+    margin: 40px;
+
+}
+
+.projects img{
+    border: none;
+    border-radius: none;
+    display: inline;
+    padding: 20px;
+}
+
+/* footer CSS */
+
+.social li{
+    display: inline;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.social ul{
+    
+    background-color: #DCF233;
+    padding: 20px;
+    width: 100.1%;
+    
+
+}
+.social a{
+    padding: 2px;
+    margin-left: 20px;
+    
+}
+a{
+    color: black;
+
+}
+a:visited{
+    color: none;
+}
+a:link{
+    text-decoration: none;
+    
+}
+
+/* other */
+.linkedin{
+    width: 400px;
+    border-radius:65%;
+}
+.navbar-default{
+    background-color: black;
+}
+#portfolio{
+    background-color: white;
+}
+.pink, .btn-success{
+    background-color: white;
+}
+
+.h2{
+    color: white;
+    font-size: 4em;
+}
+
+footer .black{
+    background-color:black;
+}
+footer .footer-below{
+    background-black;
+}
+.black,.portfolio{
+    color: black;
+}
+#about{
+    background-color: black;
+}
+/* skills section */
+
+.skills ul{
+    list-style-type: none;
+
+    
+}
+.skills li{
+    display: inline;
+}
+.skills img{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20%;
+    padding: 10px;
+    
+}
+#skills {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 4em;
+    border: black solid 5px;
+    border-radius: 5%;
+}
+.success{
+    background-color: white;
+    padding:20px;
+}
+
+
+/* Resume */
+.web-developer{
+    letter-spacing: 2px;
+    color: white;
+    margin-top: -5%;
+}
+h2.black-2{
+    
+    text-align: Center;
+    font-size: 70px;
+
+}
+h3.black-2, .github{
+    color: #F3137F;
+}
+h3.black-2, .work-section, .education-section{
+    text-align: left;
+}
+#resume{
+    background-color: black;
+}
+
+
+.skill-section,.education-section li, .projects li,.work-section li, p{
+    color: white;
+    list-style-type: none;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-size: 18px;
+}
+h3.skill-section{
+    text-align: right;
+    margin-right: 5%;
+    font-size: 40px;
+}
+ .languages li, .familiar{
+    display:block;
+    color: white;
+    letter-spacing: 4,px;
+    font-size: 20px;
+    text-align: right;
+    list-style-type: none;
+    margin-right: 5%;
+
+
+
+}
+.languages ul{
+    text-align: left;
+
+}
+ .projects  {
+
+    text-align: left;
+      margin-top: -53%;
+    margin-right: 40%; 
+}
+
+.projects li{
+
+    margin: 10px;
+    display: block;
+}
+
+.project-heading ,h3.education-section{
+    margin-left: 4%;
+    font-size: 40px;
+}
+h3.work-section{
+    margin-left: 5%;
+    font-size: 40px;
+}
+.django{
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px;
+}
+p{
+    color: white;
+
+}
+.educaiton-section, .work-section{
+    margin: 10px;
+    margin-right: 40%; 
+    text-align: left;
+
+}
+.employer-name{
+    font-weight: bolder;
+}
+li.title, .title{
+    color: #DCF233;
+
+}

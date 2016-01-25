@@ -1,0 +1,42 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Averia+Libre:400,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/projects.css'%}">
+</head>
+<body>
+
+    <div class="container">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-2">
+            <div class="row">
+
+             <img id="idea" src="{% static 'images/pink_hair-gotit.png' %}">
+             <img id="stuck" src="{% static 'images/pink_girl_music.png' %}">
+                <h1>Projects</h1>
+                
+                <ul>
+                    <li><a href="/google">Google Page</a></li>
+                    <li><a href="/google_search">Google Search</a></li>
+                    <li><a href="/landing_page">Karma ( Landing Page )</a></li>
+                    <li><a href="/j_streetfighter">jQuery-Streetfighter</a></li>
+                    <li><a href="/grid">Bootstrap Grid</li>
+                    <li><a href="/luigi">Boostrap Luigi</li>
+                </ul>
+            </div>
+
+           
+        </div>
+
+        <img id="lisbeth" src="{% static 'images/lisbeth_meme.jpg' %}">
+
+
+
+    </div>
+    
+</body>
+</html>
