@@ -8,6 +8,11 @@ def index(request):
     return render_to_response('index.html', context, context_instance=RequestContext(request))
 
 
+def index2(request):
+    context = {}
+    return render_to_response('index2.html', context, context_instance=RequestContext(request))
+
+
 def about_me(request):
     context = {}
     return render_to_response('about-me-index.html', context, context_instance=RequestContext(request))

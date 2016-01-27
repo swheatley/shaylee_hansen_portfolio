@@ -1,0 +1,404 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shaylee Hansen's Portfolio</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{% static 'css/freelancer.css' %}" rel="stylesheet">
+    <link href="{% static 'css/mystyle.css' %}"  rel="stylesheet">
+    <link href="{% static 'css/-index-mystyle.css'%}" rel="stylesheet">
+    
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+   
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar">Portfolio</span>
+                    <span class="icon-bar">Skills</span>
+                    <span class="icon-bar">Contact</span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Shaylee Hansen</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#resume">Resume</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about-me-index">About Me</a>
+                        
+                    </li>
+                    <li>
+                       <a href="/Projects/projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header class="pink">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive linkedin" src="{% static 'images/linkedIn.jpg'%}" alt="">
+                    <div class="intro-text">
+                        <span class="name">Django Web Developer</span>
+                        <hr class="star-light">
+                        <ul class="list-inline">
+                                <li>
+                                    <a href="https://github.com/swheatley" class="btn-social btn-outline"><i class="fa fa-fw fa-github-square"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://codepen.io/monkeymohawk/" class="btn-social btn-outline"><i class="fa fa-codepen"></i></a></li>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/HansenShaylee" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/shayleehansen" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://swheatley29.tumblr.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-tumblr"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://medium.com/@HansenShaylee" class="btn-social btn-outline"><i class="fa fa-fw fa-medium"></i></a>
+                                </li>
+                
+                              
+                                
+                                
+                                
+                                
+                            </ul>
+                        <!--<span class="skills">Django/Python Web Developer</span>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width: 360px; height: 288px;" src="{% static 'images/portfolio/gitkitty.jpg'%}" class="img-responsive" alt="">
+                        <p>Github</p>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width: 360px; height: 288px" src="{% static 'images/portfolio/blog/djangogirl.png'%}" class="img-responsive" alt="alt">
+                        <p>( Django Framework ) Django Blog</p>
+                        <a href="http://blog.shayleehansen.com/">Blog</a>
+                        
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                         <img style="width: 360px; height: 288px;" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Froot-Loops-Cereal-Bowl.jpg">  
+                        <p> ( Django Framework ) Cereal Project</p>
+                        <a href="http://cereal.shayleehansen.com/">Cereal App</a>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width: 360px; height: 288px;"  src="{% static 'images/portfolio/djangostates.png' %}">
+                        <p>(Django Framework ) Django States</p>
+                        <a href="http://firstdjango.shayleehansen.com">50 States</a>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{% static 'images/portfolio/i_love_music_Fotor_Fotor.jpg'%}" class="img-responsive" alt="">
+                        <p> ( Django Framework ) Music App</p>
+                        <a href="http://musicapp.shayleehansen.com">Music App</a>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="width: 360px; height: 288px;" src="{% static 'images/portfolio/salon-md_Fotor.jpg'%}" class="img-responsive" alt="">
+                        <p>( Django Framework ) Final Project:</p>
+                        <a href="http://sharonshairdesigns.com">Mom's Business Site</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="success" id="about">
+        <div class="container pink">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 id="skills">Skills</h2>
+                    <hr class="star-light">
+                    <ul class="skills">
+                        <li><img src="{% static 'images/portfolio/django.png'%}"></li>
+                        <li><img src="{% static 'images/portfolio/python.png'%}"></li>
+                        <li><img src="{% static 'images/portfolio/postgres.png'%}"></li>
+                        <li><img src="{% static 'images/portfolio/mysql_phpmy.png'%}"></li>
+                        <li><img src="{% static 'images/portfolio/design_Fotor.jpg'%}"></li>
+                         <li><img src="{% static 'images/portfolio/javascript.jpeg'%}"></li>
+                        <li><img src="{% static 'images/portfolio/bootstrap.png'%}"></li>
+                        <li><img src="{% static 'images/portfolio/github-octocat.png'%}"></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+
+            
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                 </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Resume Section -->
+    
+
+     <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h2 id="resume" class="black-2 resume">Resume</h2>
+                        <h3 class="web-developer">Django Web Developer</h3>
+            
+                        <br/>
+                        <br/>
+
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <h3 class="black-2 skill-section">Skills</h3>
+                                        <ul class="languages">
+                                            <li>Python/Django</li>
+                                            <li>JavaScript/jQuery</li>
+                                            <li>HTML5|CSS3</li>
+                                            <li>Bootstrap</li>                   
+                                            <li>MySQL</li>
+                                            <li>phpMyAdmin</li>
+                                            <li>Django Rest Framework</li>
+                                            <li>Git/Github</li>
+                                            <li>Linode</li>
+                                            <li>Unix/Linux</li>
+                                            <li>Apache2</li>
+                                            
+                                        </ul>
+                                        <ul class="familiar"><span class="title">Tinkered with:</span>
+                                            <li>Angular</li>
+                                            <li>Ruby</li>
+                                            <li>PHP</li>
+                                            <li>MongoDB</li>
+                                            <li>PostgreSQL</li>
+                                            <li>SQL</li>
+                                        </ul>
+                            </div>
+                        </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                                <ul class="projects"><h3 class="black-2 project-heading">Projects</h3>
+                                    <li><span class="title">Business Website</span> <span class="github">(https://github.com/swheatley/mom_website_real )</span>
+                                    Created a website for my mom to advertise her business.  Features of this app include Django Registration-Redux usage.  It allows the user to register, login, and logout.  Users have the ability to send her messages with the potential of scheduling appointments.</li>
+                            
+
+                                    <li><span class="title">Django States Project</span> <span class="github">(https://github.com/swheatley/first_django)</span>
+                                    Categorizes all fifty states by name,  state capital and corresponding cities.  Uses google maps to show the location of the each state capital along with an image of each corresponding state.</li>
+
+                                    <li><span class="title">Music App</span> <span class="github">(https://github.com/swheatley/music_app)</span>
+                                    Exhibits utilization of the Free Music Archive API while incorporating Social OAuth into a simple Django application that is created with a Bootstrap design template.</li>
+
+                                    <li><span class="title">Cereal List</span> <span class="github">(https://github.com/swheatley/cereal_2)</span>
+                                    Demonstrates the use of converting CSV data file and incorporating it into building a Django application.</li>
+
+                                    <li><span class="title">Blog</span> <span class="github">(https://github.com/swheatley/Blog)</span>
+                                    Created a personal blog following the Django Girls Tutorial and Extensions.</li>
+                            </ul> 
+                        </div>
+                    </div> 
+                    <br/>
+                    <br/>
+
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <br/>
+                            <h3 class="black-2 work-section">Work Experience</h3>
+                                <ul class="work-section">
+                                    <li class="employer-name">Willis Towers Watson’s OneExchange,  <span class="title">2011-2015</span></li>
+                                    <li class="title">Licensed Benefit Specialist</li>
+                                    <br />
+                                    <li>As a Licensed Benefit Specialist I was the companies last line of defense in promoting a good customer experience. When things went wrong they called me to make it better.</li>
+                                    <br/>
+                                    <br/>
+                                    <li class="employer-name">Primary Children’s Hospital,  <span class="title">2008-2011</span></li>
+                                    <li class="title">Graveyard  Radiology  Technologist</li>
+                                    <br />
+                                    <li>As a Graveyard Radiology Technologist I performed all x-ray, computed tomography, and fluoroscopy exams between the hours of 930pm - 730am.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <br/>
+                            <h3 class="black-2 education-section">Education</h3>
+                                <ul class="education-section">
+                                    <li>Certificate in Python/Django Web Development | Coding Campus | <span class="title">2015</li>
+                                    <li>A.S in Radiology Technology | Salt Lake Community College |<span class="title"> 2009</span></li>
+                                    <li>A.S in General Studies | Salt Lake Community College | <span class="title">2006</span></li>
+                                </ul>
+                        </div>
+                    </div>
+                    
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <!-- Footer
+    <footer class="text-center black ">
+        <div class="footer-above black">
+            <div class="container black">
+                <div class="row">
+                    <div class="footer-col col-md-4">    
+                    </div>  
+                </div>      
+            </div>
+        </div>
+
+
+        <div class="footer-below">
+            <div class="container black">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+
+
+
+
+
+
+
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+
+
+
+
+   
+    <!-- jQuery -->
+    <script src="{% static 'js/jquery.js'%}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="{% static 'js/classie.js' %}"></script>
+    <script src="{% static 'js/cbpAnimatedHeader.js'%}"></script>
+
+    <!-- Contact Form JavaScript -->
+   
+    <script src="{% static 'js/jqBootstrapValidation.js' %}"></script>
+    <script src="{% static 'js/contact_me.js' %}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{% static 'js/freelancer.js' %}"></script>
+
+</body>
+
+</html>
