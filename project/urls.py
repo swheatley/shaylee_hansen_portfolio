@@ -22,9 +22,9 @@ from portfolio import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
-    url(r'^$', 'portfolio.views.index'),
+    # url(r'^$', 'portfolio.views.index'),
     url(r'^about-me-index/$', 'portfolio.views.about_me'),
-    url(r'^index2/$', 'portfolio.views.index2'),
+    url(r'^$', 'portfolio.views.index2'),
 
     # Projects
 
