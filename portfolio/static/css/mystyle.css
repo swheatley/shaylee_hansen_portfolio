@@ -1,7 +1,7 @@
 
 body{
     background-color: black;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light', cursive !important;
 }
 .linkedin{
     width: 400px;
@@ -54,7 +54,7 @@ footer .footer-below{
 }
 #skills {
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 .success{
     background-color: hotpink;
@@ -70,9 +70,11 @@ footer .footer-below{
 h2.black-2{
     
     text-align: center;
+
 }
 .black-2{
-    color:white;
+
+    color: #F3137F;
     font-family: 'Shadows Into Light', cursive
 }
 
@@ -105,7 +107,7 @@ h3.black-2, .work-section, .education-section{
     list-style-type: none;
     letter-spacing: 2px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 h3.skill-section{
     text-align: right;

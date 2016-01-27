@@ -1,3 +1,4 @@
+
 .masthead-intro, .masthead-heading{
   text-align: center;
   font-size: 3em;
@@ -14,11 +15,13 @@
 body{
   font-family: 'Chango', cursive;
   margin: 0;
+  background-color: black;
 }
 .masthead-intro{
   margin-bottom: 0.1em;
   padding-top: 2em;
   padding-bottom: .5em;
+  font-family: 'Chango', cursive;
   
 }
 .masthead-heading{
@@ -29,13 +32,16 @@ h2{
  font-size: 2em;
 }
 h3{
-  color: gold;
+  color: #F3137F;
   font-size: 1.8em;
   text-align: center;
+  font-family: 'Chango', cursive;
+
 }
 p{
 
   font-family: verdana, sans-serif;
+  color:white;
   font-weight: italic;
   font-size: 1.8em;
   float: center;
