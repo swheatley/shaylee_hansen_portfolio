@@ -161,6 +161,9 @@ p{
     color: white;
 
 }
+p:hover{
+    color:#18bc9c;
+}
 .educaiton-section, .work-section{
     margin: 10px;
     margin-right: 40%; 
