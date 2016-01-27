@@ -11,30 +11,27 @@
     <!-- Custom CSS -->
     <link href="{% static 'css/freelancer.css' %}" rel="stylesheet">
     <link href="{% static 'css/mystyle.css' %}"  rel="stylesheet">
-    <!--<link rel="stylesheet" type="text/css" href="{% static 'css/index-mystyle.css'%}">-->
+    
 
     <!-- Custom Fonts -->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Averia+Libre:400,300italic' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
     <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet">
     <link href="{% static 'css/freelancer.css' %}" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/projects.css'%}">-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/projects.css'%}">
 </head>
 <body>
 
     <div class="container-fluid">
         <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="row">
-
-             <img id="idea" src="{% static 'images/pink_hair-gotit.png' %}">
-             <img id="stuck" src="{% static 'images/pink_girl_music.png' %}">
-             <h1>Projects</h1> 
+                 <img id="idea" src="{% static 'images/pink_hair-gotit.png' %}">
+                 <img id="stuck" src="{% static 'images/pink_girl_music.png' %}">
+                 <h1>Projects</h1> 
             </div>
 
            
@@ -49,42 +46,50 @@
                 </div>
             </div>
             <div class="row">
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                 <p>HTML & CSS & jQuery</p>  
+                            </div>
+                        </div>
+                        <img style="width: 360px; height: 288px;" src="{% static 'images/jquery.png'%}" class="img-responsive" alt="">
+                        <a href="/j_streetfighter"><p>jQuery Street fighter</p></a>   
+                    </a>
+                </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>HTMl & CSS </p>
                             </div>
                         </div>
                         <img style="width: 360px; height: 288px;" src="{% static 'images/google_homepage.png'%}" class="img-responsive" alt="">
-                        <p>Google Page</p>
-                        <a href="/google">Google Page</a>
+                        <a href="/google"><p>Google Page</p></a>
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>HTMl & CSS </p>
                             </div>
                         </div>
                         <img style="width: 360px; height: 288px" src="{% static 'images/search.png'%}" class="img-responsive" alt="alt">
-                        <p>Google Search</p>
-                        <a href="/google_search">Google Search</a>
-                        
-                        
+                        <a href="/google_search"><p>Google Search</p></a>    
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>HTMl & CSS & Bootstrap</p>
                             </div>
                         </div>
                          <img style="width: 360px; height: 288px;" src="{% static 'images/grid.png' %}">  
-                        <p>Bootstrap Grid</p>
-                        <a href="/grid">Bootstrap Grid</a>
+                        
+                        <a href="/grid"><p>Bootstrap Grid</p></a>
                         
                     </a>
                 </div>
@@ -92,12 +97,12 @@
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                 <p>HTMl & CSS & Bootstrap</p>
                             </div>
                         </div>
                         <img style="width: 360px; height: 288px;"  src="{% static 'images/luigi.png' %}">
-                        <p>Boostrap Luigi</p>
-                        <a href="/luigi">Boostrap Luigi</a>
+                        
+                        <a href="/luigi"><p>Boostrap Luigi</p></a>
                        
                     </a>
                 </div>
@@ -105,25 +110,22 @@
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>HTMl & CSS </p>
                             </div>
                         </div>
-                        <img src="{% static 'images/karma.png'%}" class="img-responsive" alt="">
-                        <a href="/landing_page">Karma ( Landing Page )</a>
+                        <img style="width: 360px; height: 288px;"src="{% static 'images/karma.png'%}" class="img-responsive" alt="">
+                        <a href="/landing_page"><p>Karma, Landing Page</p></a>
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                 <i class="fa fa-search-plus fa-3x"></i>
-                                
-                            </div>
-                        </div>
-                        <img style="width: 360px; height: 288px;" src="{% static 'images/jquery.png'%}" class="img-responsive" alt="">
-                        
+                
+
+                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <img style="width: 360px; height: 288px;" src="http://www.swcomps.com/wp-content/uploads/2015/02/coming-soon.png" class="img-responsive" alt="">
+                        <p>Coming Soon</p>
                     </a>
                 </div>
+
             </div>
         </div>
     </section>

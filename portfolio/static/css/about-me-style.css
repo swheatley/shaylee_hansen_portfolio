@@ -16,12 +16,14 @@ body{
   font-family: 'Chango', cursive;
   margin: 0;
   background-color: black;
+
 }
 .masthead-intro{
   margin-bottom: 0.1em;
   padding-top: 2em;
   padding-bottom: .5em;
   font-family: 'Chango', cursive;
+
   
 }
 .masthead-heading{
@@ -30,20 +32,23 @@ body{
 }
 h2{
  font-size: 2em;
+ color: white;
+ text-align: center;
+ font-family: 'Shadows Into Light', cursive;
 }
 h3{
   color: #F3137F;
   font-size: 1.8em;
-  text-align: center;
-  font-family: 'Chango', cursive;
+  text-align: left;
+  font-family: 'Shadows Into Light', cursive;
 
 }
 p{
 
-  font-family: verdana, sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   color:white;
   font-weight: italic;
-  font-size: 1.8em;
+  font-size: 2.0em;
   float: center;
   line-height: 2;
 }
@@ -63,12 +68,13 @@ li{
   list-style-type: none;
   display: inline;
   padding: 1em;
+
    
 }
-ul{
+ul {
   text-align: center;
+   margin-top: 5%;
+  
   
 }
-i{
-  color: gold;
-}
+
