@@ -40,7 +40,7 @@ footer .footer-below{
 .skills ul{
     list-style-type: none;
 
-    
+
 }
 .skills li{
     display: inline;
@@ -50,7 +50,7 @@ footer .footer-below{
     height: 300px;
     padding: 10px;
     border-radius: 20%;
-    
+
 }
 #skills {
     margin-bottom: 20px;
@@ -68,7 +68,7 @@ footer .footer-below{
 /* Resume */
 
 h2.black-2{
-    
+
     text-align: center;
 
 }
@@ -86,7 +86,7 @@ h2.black-2{
     font-family: 'Shadows Into Light', cursive
 }
 h2.black-2{
-    
+
     text-align: Center;
     font-size: 70px;
 
@@ -134,7 +134,7 @@ h3.skill-section{
 
     text-align: left;
       margin-top: -53%;
-    margin-right: 40%; 
+    margin-right: 40%;
 }
 
 .projects li{
@@ -166,7 +166,7 @@ p:hover{
 }
 .educaiton-section, .work-section{
     margin: 10px;
-    margin-right: 40%; 
+    margin-right: 40%;
     text-align: left;
 
 }
@@ -178,6 +178,12 @@ li.title, .title{
 
 }
 
+/* Mobile Responsive */
+
+.fa-arrow-circle-up{
+  margin-left: -9px;
+  margin-top: -8px;
+}
 /*#resume{
     background-color: black;
 }
