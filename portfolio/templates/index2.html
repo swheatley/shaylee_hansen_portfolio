@@ -123,7 +123,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item portfolio-github">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <img style="width: 360px; height: 288px;" src="{% static 'images/portfolio/gitkitty.jpg'%}" class="img-responsive" alt="">
                         <a href='https://github.com/swheatley'>
@@ -212,7 +212,6 @@
 
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                 </div>
             </div>
@@ -224,14 +223,15 @@
 
 
     <section id="resume">
-        <div class="container">
+        <div class="container resume-section">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="black-2 resume">Resume</h2>
-                    <h3 class="web-developer">Django Web Developer</h3>
-
-
-                    <div class="col-lg-12">
+                  <div class="resume-section">
+                      <h2 class="black-2 resume">Resume</h2>
+                      <h3 class="web-developer">Web Developer</h3>
+                  </div>
+                  <div class="main-content">
+                    <div class="col-lg-12 skills-section">
                         <div class="row">
                             <h3 class="black-2 skill-section">Skills</h3>
                             <ul class="languages">
@@ -258,10 +258,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                  <div class="main-content-small">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="row">
-                            <ul class="projects">
-                                <h3 class="black-2 project-heading">Projects</h3>
+                          <h3 class="black-2 project-heading">Projects</h3>
+                            <ul class="projects  list-section">
                                 <li><span class="title">Business Website</span> <span class="github">(https://github.com/swheatley/mom_website_real )</span> Created a website for my mom to advertise her business. Features of this app include Django Registration-Redux
                                     usage. It allows the user to register, login, and logout. Users have the ability to send her messages with the potential of scheduling appointments.</li>
 
@@ -285,7 +286,10 @@
                         <div class="row">
                             <br/>
                             <h3 class="black-2 work-section">Work Experience</h3>
-                            <ul class="work-section">
+                            <ul class="work-section list-section">
+                              <li class="employer-name"><span class="g-commerce">G</span>Commerce <span class="g-commerce">S</span>olutions, <span class="title">2016-Present</span></li>
+                              <li class="title">Jr Front End Developer</li>
+                              <br />
                                 <li class="employer-name">Willis Towers Watson’s OneExchange, <span class="title">2011-2015</span></li>
                                 <li class="title">Licensed Benefit Specialist</li>
                                 <br />
@@ -303,56 +307,24 @@
                         <div class="row">
                             <br/>
                             <h3 class="black-2 education-section">Education</h3>
-                            <ul class="education-section">
+                            <ul class="education-section  list-section">
                                 <li>Certificate in Python/Django Web Development | Coding Campus | <span class="title">2015</li>
                                     <li>A.S in Radiology Technology | Salt Lake Community College |<span class="title"> 2009</span></li>
                                 <li>A.S in General Studies | Salt Lake Community College | <span class="title">2006</span></li>
                             </ul>
                         </div>
                     </div>
-
-
-                </div>
+                  </div>
             </div>
         </div>
+      </div>
+      <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+      <div class="scroll-top page-scroll visible-xs visible-sm">
+          <a class="btn btn-primary" href="#page-top">
+              <i class="fa fa-arrow-circle-up fa-2x"></i>
+          </a>
+      </div>
     </section>
-
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-arrow-circle-up fa-2x"></i>
-        </a>
-    </div>
-
-    <!-- Footer
-    <footer class="text-center black ">
-        <div class="footer-above black">
-            <div class="container black">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="footer-below">
-            <div class="container black">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Your Website 2015
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>-->
-
-
-
-
-
-
 
 
 
@@ -377,5 +349,4 @@
     <script src="{% static 'js/freelancer.js' %}"></script>
 
 </body>
-
 </html>

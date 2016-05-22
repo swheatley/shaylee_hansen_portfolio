@@ -2,6 +2,8 @@
 body{
     background-color: black;
     font-family: 'Shadows Into Light', cursive !important;
+    //width: 750px;
+    height: 750px;
 }
 .linkedin{
     width: 400px;
@@ -60,16 +62,19 @@ footer .footer-below{
     background-color: hotpink;
     padding:20px;
 }
-/* Blog */
 
-.blog_images ul{
-    display: inline;
+.portfolio-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
+
 /* Resume */
-
-h2.black-2{
-
-    text-align: center;
+.main-content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
 }
 .black-2{
@@ -77,106 +82,108 @@ h2.black-2{
     color: #F3137F;
     font-family: 'Shadows Into Light', cursive
 }
-
-.web-developer{
-    letter-spacing: 2px;
-    color: white;
-    margin-top: 5%;
-    text-align: center;
-    font-family: 'Shadows Into Light', cursive
-}
 h2.black-2{
-
-    text-align: Center;
     font-size: 70px;
 
 }
 h3.black-2, .github{
     color: #F3137F;
 }
-h3.black-2, .work-section, .education-section{
-    text-align: left;
-}
-#resume{
-    color: #F3137F;
-}
-
-
-.skill-section,.education-section li, .projects li,.work-section li, p{
-    color: white;
-    list-style-type: none;
-    letter-spacing: 2px;
-    padding: 10px;
-    font-size: 20px;
-}
-h3.skill-section{
-    text-align: right;
-    margin-right: 5%;
-    font-size: 40px;
-}
- .languages li, .familiar{
-    display:block;
-    color: white;
-    letter-spacing: 4,px;
-    font-size: 20px;
-    text-align: right;
-    list-style-type: none;
-    margin-right: 5%;
-
-
-
-}
-.languages ul{
-    text-align: left;
-
-}
- .projects  {
-
-    text-align: left;
-      margin-top: -53%;
-    margin-right: 40%;
-}
-
-.projects li{
-
-    margin: 10px;
-    display: block;
-}
-
-.project-heading ,h3.education-section{
-    margin-left: 4%;
-    font-size: 40px;
-}
-h3.work-section{
-    margin-left: 5%;
-    font-size: 40px;
-}
-.django{
-    color: black;
-    font-weight: bolder;
-    font-size: 15px;
-    padding: 10px;
-}
-p{
-    color: white;
-
-}
-p:hover{
-    color:#18bc9c;
-}
-.educaiton-section, .work-section{
-    margin: 10px;
-    margin-right: 40%;
-    text-align: left;
-
-}
-.employer-name{
-    font-weight: bolder;
-}
 li.title, .title{
     color: #DCF233;
 
 }
+p{
+    color: white;
+}
+p:hover{
+    color:#18bc9c;
+}
+#resume{
+    color: #F3137F;
+}
+.web-developer{
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Shadows Into Light', cursive
+}
+.main-content-small{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  bottom: 601px
+}
+.g-commerce{
+  color: #EA5825;
+}
+
+.skills-section{
+  align-self: flex-end;
+  margin-top: 50px;
+
+
+}
+h3.skill-section{
+    font-size: 40px;
+}
+.skill-section,.education-section li, .projects li,.work-section li, p{
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+.languages li, .familiar{
+  color: white;
+  letter-spacing: 4,px;
+  font-size: 20px;
+  list-style-type: none;
+
+
+}
+.resume-section{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.project-heading ,h3.education-section{
+  font-size: 40px;
+}
+ .list-section{
+     max-width: 70%;
+
+ }
+.work-section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+h3.work-section{
+  font-size: 40px;
+}
+.employer-name{
+    font-weight: bolder;
+}
+.education-section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.django{
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+
 
 /* Mobile Responsive */
 
@@ -184,22 +191,3 @@ li.title, .title{
   margin-left: -9px;
   margin-top: -8px;
 }
-/*#resume{
-    background-color: black;
-}
-
-
-.skill-section,.education-section li, .projects li,.work-section li, p{
-    color: white;
-    list-style-type: none;
-    letter-spacing: 2px;
-    padding: 10px;
-
-}
- .languages li{
-    display:inline;
-    color: white;
-    letter-spacing: 4,px;
-    font-size: 20px;
-}
-*/
