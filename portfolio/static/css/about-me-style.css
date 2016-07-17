@@ -3,7 +3,7 @@
   text-align: center;
   font-size: 3em;
   color: white;
-  
+
 }
 .masthead{
   padding: 6em 0;
@@ -24,11 +24,23 @@ body{
   padding-bottom: .5em;
   font-family: 'Chango', cursive;
 
-  
+
 }
 .masthead-heading{
   margin-top: -0.2em;
-  
+
+}
+.fa{
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+
+}
+.fa:hover{
+  color: #18bc9c;
+
 }
 h2{
  font-size: 2em;
@@ -56,25 +68,24 @@ section{
   width: 60em;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 a{
-  
+
   margin: 0;
   text-decoration: none;
-  
+
 }
 li{
   list-style-type: none;
   display: inline;
   padding: 1em;
 
-   
+
 }
 ul {
   text-align: center;
    margin-top: 5%;
-  
-  
-}
 
+
+}

@@ -18,7 +18,7 @@
     <!-- Custom CSS -->
     <link href="{% static 'css/freelancer.css' %}" rel="stylesheet">
     <link href="{% static 'css/mystyle.css' %}" rel="stylesheet">
-    <link href="{% static 'css/-index-mystyle.css'%}" rel="stylesheet">
+    <!--<link href="{% static 'css/-index-mystyle.css'%}" media="(max-width: 800px)" rel="stylesheet">-->
     <link rel="icon" href="{% static 'favicon/favicon-girl.ico' %}" type="image/x-icon">
 
 
@@ -26,22 +26,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
+
 </head>
+
 
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Shaylee Hansen</a>
+                    <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#page-top">Shaylee Hansen</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,22 +56,22 @@
                     <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
                     </li>
-                    <li>
+                    <li class="page-scroll">
                         <a href="#resume">Resume</a>
                     </li>
-                    <li>
+                    <li class="page-scroll">
                         <a href="http://shayleehansen.com/">Blog</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">Skills</a>
-                    </li>
-                    <li>
+                       <a href="#about">Skills</a>
+                   </li>
+                   <li>
                         <a href="/about-me-index">About Me</a>
 
                     </li>
                     <li>
-                        <a href="/Projects/projects">Projects</a>
-                    </li>
+                       <a href="/Projects/projects">Projects</a>
+                   </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -77,7 +80,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="pink">
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -86,43 +89,41 @@
                         <span class="name">Web Developer</span>
                         <hr class="star-light">
                         <ul class="list-inline">
-                            <li>
-                                <a href="https://github.com/swheatley" class="btn-social btn-outline"><i class="fa fa-fw fa-github-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://codepen.io/monkeymohawk/" class="btn-social btn-outline"><i class="fa fa-codepen"></i></a></li>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/HansenShaylee" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/shayleehansen" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://swheatley29.tumblr.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-tumblr"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://medium.com/@HansenShaylee" class="btn-social btn-outline"><i class="fa fa-fw fa-medium"></i></a>
-                            </li>
-                        </ul>
+                           <li>
+                               <a href="https://github.com/swheatley" class="btn-social btn-outline"><i class="fa fa-fw fa-github-square"></i></a>
+                           </li>
+                           <li>
+                               <a href="http://codepen.io/monkeymohawk/" class="btn-social btn-outline"><i class="fa fa-codepen"></i></a></li>
+                           </li>
+                           <li>
+                               <a href="https://twitter.com/HansenShaylee" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                           </li>
+                           <li>
+                               <a href="https://www.linkedin.com/in/shayleehansen" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                           </li>
+                           <li>
+                               <a href="http://swheatley29.tumblr.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-tumblr"></i></a>
+                           </li>
+                           <li>
+                               <a href="https://medium.com/@HansenShaylee" class="btn-social btn-outline"><i class="fa fa-fw fa-medium"></i></a>
+                           </li>
+                       </ul>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-
-
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
+          <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2>Portfolio</h2>
+              <hr class="star-primary">
+          </div>
+          </div>
+          <div class="row">
                 <div class="col-sm-4 portfolio-item portfolio-github">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <img style="width: 360px; height: 288px;" src="{% static 'images/portfolio/gitkitty.jpg'%}" class="img-responsive" alt="">
@@ -132,221 +133,450 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <img style="width: 360px; height: 288px;" src="{% static 'images/portfolio/salon-md_Fotor.jpg'%}" class="img-responsive" alt="">
-                        <a href="http://sharonshairdesigns.com">
-                            <p>( Django Framework ) Final Project</p>
+                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                            <img style="width: 360px; height: 288px;" src="{% static 'images/portfolio/salon-md_Fotor.jpg'%}" class="img-responsive" alt="">
+                            <a href="http://sharonshairdesigns.com">
+                                <p>( Django Framework ) Final Project</p>
+                            </a>
                         </a>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <img style="width: 360px; height: 288px;" src="{% static 'images/portfolio/djangostates.png' %}">
-                        <a href="http://firstdjango.shayleehansen.com">
-                            <p>(Django Framework ) Django States</p>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                            <img style="width: 284px; height: 288px;" src="{% static 'images/portfolio/djangostates.png' %}">
+                            <a href="http://firstdjango.shayleehansen.com">
+                                <p>(Django Framework ) Django States</p>
+                            </a>
+
                         </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                            <img src="{% static 'images/portfolio/i_love_music_Fotor_Fotor.jpg'%}" class="img-responsive" alt="">
+                            <a href="http://musicapp.shayleehansen.com">
+                                <p> ( Django Framework ) Music App</p>
+                            </a>
 
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <img src="{% static 'images/portfolio/i_love_music_Fotor_Fotor.jpg'%}" class="img-responsive" alt="">
-                        <a href="http://musicapp.shayleehansen.com">
-                            <p> ( Django Framework ) Music App</p>
                         </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                            <img style="width: 360px; height: 288px" src="{% static 'images/portfolio/blog/djangogirl.png'%}" class="img-responsive" alt="alt">
+                            <a href="http://blog.shayleehansen.com/">
+                                <p>( Django Framework ) Django Blog</p>
+                            </a>
 
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <img style="width: 360px; height: 288px" src="{% static 'images/portfolio/blog/djangogirl.png'%}" class="img-responsive" alt="alt">
-                        <a href="http://blog.shayleehansen.com/">
-                            <p>( Django Framework ) Django Blog</p>
+
                         </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                            <img style="width: 284px; height: 288px;" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Froot-Loops-Cereal-Bowl.jpg">
+                            <a href="http://cereal.shayleehansen.com/">
+                                <p> ( Django Framework ) Cereal App</p>
+                            </a>
 
-
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <img style="width: 360px; height: 288px;" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Froot-Loops-Cereal-Bowl.jpg">
-                        <a href="http://cereal.shayleehansen.com/">
-                            <p> ( Django Framework ) Cereal App</p>
                         </a>
+                    </div>
 
-                    </a>
-                </div>
-
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <img style="width: 360px; height: 288px;" src="http://www.swcomps.com/wp-content/uploads/2015/02/coming-soon.png" class="img-responsive" alt="">
-                        <p>Coming Soon</p>
-                    </a>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                            <img style="width: 284px; height: 288px;" src="http://www.swcomps.com/wp-content/uploads/2015/02/coming-soon.png" class="img-responsive" alt="">
+                            <p>Coming Soon</p>
+                        </a>
+                    </div>
                 </div>
             </div>
+        </section>
+
+
         </div>
     </section>
 
-
+    <!-- About Section -->
     <section class="success" id="about">
-        <div class="container pink">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 id="skills">Skills</h2>
+                    <h2>Skills</h2>
                     <hr class="star-light">
-                    <ul class="skills">
-                        <li><img src="{% static 'images/portfolio/django.png'%}"></li>
-                        <li><img src="{% static 'images/portfolio/python.png'%}"></li>
-                        <li><img src="{% static 'images/portfolio/postgres.png'%}"></li>
-                        <li><img src="{% static 'images/portfolio/mysql_phpmy.png'%}"></li>
-                        <li><img src="{% static 'images/portfolio/design_Fotor.jpg'%}"></li>
-                        <li><img src="{% static 'images/portfolio/javascript.jpeg'%}"></li>
-                        <li><img src="{% static 'images/portfolio/bootstrap.png'%}"></li>
-                        <li><img src="{% static 'images/portfolio/github-octocat.png'%}"></li>
-                    </ul>
-
                 </div>
             </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-2">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Resume Section -->
-
-
-    <section id="resume">
-        <div class="container resume-section">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                  <div class="resume-section">
-                      <h2 class="black-2 resume">Resume</h2>
-                      <h3 class="web-developer">Web Developer</h3>
-                  </div>
-                  <div class="main-content">
-                    <div class="col-lg-12 skills-section">
-                        <div class="row">
-                            <h3 class="black-2 skill-section">Skills</h3>
-                            <ul class="languages">
-                                <li>Python/Django</li>
-                                <li>JavaScript/jQuery</li>
-                                <li>HTML5|CSS3</li>
-                                <li>Bootstrap</li>
-                                <li>MySQL</li>
-                                <li>phpMyAdmin</li>
-                                <li>Django Rest Framework</li>
-                                <li>Git/Github</li>
-                                <li>Linode</li>
-                                <li>Unix/Linux</li>
-                                <li>Apache2</li>
+                <div class="col-lg-4 col-lg-offset-2">
+                     <img style="width: 284px; height: 288px;" src="{% static 'images/portfolio/django.png'%}">
+                     <img style="width: 284px; height: 288px;" src="{% static 'images/portfolio/python.png'%}">
+                     <img style="width: 284px; height: 288px;" src="{% static 'images/portfolio/javascript.jpeg'%}">
 
-                            </ul>
-                            <ul class="familiar"><span class="title">Tinkered with:</span>
-                                <li>Angular</li>
-                                <li>Ruby</li>
-                                <li>PHP</li>
-                                <li>MongoDB</li>
-                                <li>PostgreSQL</li>
-                                <li>SQL</li>
-                            </ul>
-                        </div>
-                    </div>
-                  <div class="main-content-small">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="row">
-                          <h3 class="black-2 project-heading">Projects</h3>
-                            <ul class="projects  list-section">
-                                <li><span class="title">Business Website</span> <span class="github">(https://github.com/swheatley/mom_website_real )</span> Created a website for my mom to advertise her business. Features of this app include Django Registration-Redux
-                                    usage. It allows the user to register, login, and logout. Users have the ability to send her messages with the potential of scheduling appointments.</li>
+                     <img style="width: 284px; height: 288px;" src="{% static 'images/portfolio/php-logo.jpg'%}">
+                     <img style="width: 284px; height: 288px;" src="{% static 'images/portfolio/wordpress-logo.png'%}">
+
+                     <img style="width: 284px; height: 288px;"  src="{% static 'images/portfolio/design_Fotor.jpg'%}">
+                     <img style="width: 284px; height: 288px;"  src="{% static 'images/portfolio/mysql_phpmy.png'%}">
+
+                     <img style="width: 284px; height: 288px;"  src="{% static 'images/portfolio/bootstrap.png'%}">
+                     <img style="width: 284px; height: 288px;"  src="{% static 'images/portfolio/sass-logo.png'%}">
+
+                     <img style="width: 284px; height: 288px;"  src="{% static 'images/portfolio/github-octocat.png'%}">
+
+                </div>
 
 
-                                <li><span class="title">Django States Project</span> <span class="github">(https://github.com/swheatley/first_django)</span> Categorizes all fifty states by name, state capital and corresponding cities. Uses google maps to
-                                    show the location of the each state capital along with an image of each corresponding state.</li>
-
-                                <li><span class="title">Music App</span> <span class="github">(https://github.com/swheatley/music_app)</span> Exhibits utilization of the Free Music Archive API while incorporating Social OAuth into a simple Django application
-                                    that is created with a Bootstrap design template.</li>
-
-                                <li><span class="title">Cereal List</span> <span class="github">(https://github.com/swheatley/cereal_2)</span> Demonstrates the use of converting CSV data file and incorporating it into building a Django application.</li>
-
-                                <li><span class="title">Blog</span> <span class="github">(https://github.com/swheatley/Blog)</span> Created a personal blog following the Django Girls Tutorial and Extensions.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <br/>
-                    <br/>
-
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <br/>
-                            <h3 class="black-2 work-section">Work Experience</h3>
-                            <ul class="work-section list-section">
-                              <li class="employer-name"><span class="g-commerce">G</span>Commerce <span class="g-commerce">S</span>olutions, <span class="title">2016-Present</span></li>
-                              <li class="title">Jr Front End Developer</li>
-                              <br />
-                                <li class="employer-name">Willis Towers Watson’s OneExchange, <span class="title">2011-2015</span></li>
-                                <li class="title">Licensed Benefit Specialist</li>
-                                <br />
-                                <li>As a Licensed Benefit Specialist I was the companies last line of defense in promoting a good customer experience. When things went wrong they called me to make it better.</li>
-                                <br/>
-                                <br/>
-                                <li class="employer-name">Primary Children’s Hospital, <span class="title">2008-2011</span></li>
-                                <li class="title">Graveyard Radiology Technologist</li>
-                                <br />
-                                <li>As a Graveyard Radiology Technologist I performed all x-ray, computed tomography, and fluoroscopy exams between the hours of 930pm - 730am.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <br/>
-                            <h3 class="black-2 education-section">Education</h3>
-                            <ul class="education-section  list-section">
-                                <li>Certificate in Python/Django Web Development | Coding Campus | <span class="title">2015</li>
-                                    <li>A.S in Radiology Technology | Salt Lake Community College |<span class="title"> 2009</span></li>
-                                <li>A.S in General Studies | Salt Lake Community College | <span class="title">2006</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                  </div>
             </div>
         </div>
-      </div>
-      <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-      <div class="scroll-top page-scroll visible-xs visible-sm">
-          <a class="btn btn-primary" href="#page-top">
-              <i class="fa fa-arrow-circle-up fa-2x"></i>
-          </a>
-      </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place
+                            <br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
-    <script src="{% static 'js/jquery.js'%}"></script>
+        <script src="{% static 'js/jquery.js'%}"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="{% static 'js/classie.js' %}"></script>
-    <script src="{% static 'js/cbpAnimatedHeader.js'%}"></script>
+        <!-- Plugin JavaScript -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="{% static 'js/classie.js' %}"></script>
+        <script src="{% static 'js/cbpAnimatedHeader.js'%}"></script>
 
-    <!-- Contact Form JavaScript -->
+        <!-- Contact Form JavaScript -->
 
-    <script src="{% static 'js/jqBootstrapValidation.js' %}"></script>
-    <script src="{% static 'js/contact_me.js' %}"></script>
+        <script src="{% static 'js/jqBootstrapValidation.js' %}"></script>
+        <script src="{% static 'js/contact_me.js' %}"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="{% static 'js/freelancer.js' %}"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="{% static 'js/freelancer.js' %}"></script>
 
 </body>
 </html>

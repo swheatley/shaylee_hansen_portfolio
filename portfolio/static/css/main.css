@@ -1,6 +1,8 @@
 body{
 	background-color: black;
 	margin: 10px;
+	
+
 
 }
 h1{
@@ -26,7 +28,7 @@ p{
 	height: 500px;
 	position: relative;
 	z-index: 1;
-}	
+}
 .ryu{
 	float: left;
 }
@@ -43,7 +45,7 @@ p{
 }
 .ryu-ready{
 	background-image: url('/static/images/j-fighter-images/ryu-ready-position.gif' );
-	
+
 }
 .ryu-still{
 	background-image: url('/static/images/j-fighter-images/ryu-standing-still.png');
