@@ -6,11 +6,22 @@ body{
 
 
 }
+header{
+  background: hotpink;
+  width: 100%;
+}
 #page-top{
   overflow-x: hidden;
 }
 .navbar-toggle{
   background-color: black;
+
+}
+@media (max-width: 480px){
+  .navbar-toggle{
+    margin-right: 25%;
+
+  }
 }
 
 .linkedin{
@@ -22,6 +33,7 @@ body{
 }
 #portfolio{
     background-color: black;
+    width: 100%;
 }
 .pink, .btn-success{
     background-color: hotpink;
@@ -40,6 +52,7 @@ h2{
 #about{
   display: flex;
   background-color: hotpink;
+  width: 100%;
 }
 /* skills section */
 
@@ -74,6 +87,17 @@ h2{
   align-items: center;
 
 }
+.white-background{
+    width: 270px;
+    height: 288px;
+    padding: 10px;
+    border-radius: 20px;
+
+  }
+.sass{
+  background-color: white;
+  width: 270px;
+}
 
 /* Resume */
 .main-content{
@@ -93,10 +117,21 @@ h2.black-2{
 }
 h3.black-2, .github{
     color: #F3137F;
+
+}
+@media (max-width: 480px){
+  h3.black-2, .github{
+    text-align: center;
+  }
 }
 li.title, .title{
     color: #DCF233;
 
+}
+@media (max-width: 480px){
+  li.title, .title{
+    margin-left: 13%;
+  }
 }
 p{
     color: white;
@@ -119,6 +154,11 @@ p:hover{
   position: relative;
   bottom: 601px
 }
+@media (max-width: 480px){
+  .main-content-small{
+    bottom: 0px;
+  }
+}
 .g-commerce{
   color: #EA5825;
 }
@@ -128,6 +168,11 @@ p:hover{
   margin-top: 50px;
 
 
+}
+@media (max-width: 480px){
+  .skills-section{
+  align-self: center;
+  }
 }
 h3.skill-section{
     font-size: 40px;
@@ -161,10 +206,16 @@ h3.skill-section{
 .project-heading ,h3.education-section{
   font-size: 40px;
 }
- .list-section{
+.list-section{
      max-width: 70%;
 
- }
+}
+@media(max-width: 480px){
+  .explanation{
+    overflow: scroll;
+    padding-left: 100px
+  }
+}
 .work-section{
   display: flex;
   flex-direction: column;
@@ -202,4 +253,7 @@ h3.work-section{
 }
 .navbar-toggle{
   //margin-right: 174px;
+}
+.scroll-top{
+  right: 20% !important;
 }
