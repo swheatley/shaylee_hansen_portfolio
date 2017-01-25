@@ -263,9 +263,11 @@ p {
   .sidebar-wrapper {
     position: static;
     width: inherit;
+    
   }
   .main-wrapper {
     padding: 30px;
+ 
   }
   .main-wrapper .time {
     position: static;
@@ -276,6 +278,8 @@ p {
     margin-bottom: 0;
   }
 }
+
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {

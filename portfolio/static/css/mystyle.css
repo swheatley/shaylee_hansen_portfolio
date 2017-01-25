@@ -19,7 +19,7 @@ header{
 }
 @media (max-width: 480px){
   .navbar-toggle{
-    margin-right: 25%;
+    margin-right: 5%;
 
   }
 }
@@ -118,6 +118,9 @@ h2{
 .fa-user{
   margin-left: 1%;
 }
+.projects-section{
+  padding-bottom: 0%;
+}
 .project > p {
   margin-left: 2%;
 }
@@ -163,7 +166,7 @@ h3.black-2, .github{
 }
 @media (max-width: 480px){
   h3.black-2, .github{
-    text-align: center;
+    /*text-align: center;*/
   }
 }
 li.title, .title{
@@ -301,5 +304,5 @@ h3.work-section{
   //margin-right: 174px;
 }
 .scroll-top{
-  right: 20% !important;
+  right: 5% !important;
 }
