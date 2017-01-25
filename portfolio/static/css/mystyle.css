@@ -2,16 +2,19 @@
 body{
     background-color: black;
     font-family: 'Shadows Into Light', cursive !important;
+    display: flex;
+    flex-direction: column;
 
 
 
 }
 header{
   background: hotpink;
-  width: 100%;
+   width: 100%; 
 }
 #page-top{
   overflow-x: hidden;
+
 }
 .navbar-toggle{
   background-color: black;
@@ -127,6 +130,7 @@ h2{
 .project > p > a{
   color: deeppink;
   margin-left: 2%;
+  word-wrap: break-word;
 }
 .organizations > p {
   margin-left: 2%;
@@ -151,6 +155,7 @@ h2{
   flex-wrap: wrap;
 
 }
+
 .black-2{
 
     color: #F3137F;
@@ -290,9 +295,7 @@ h3.work-section{
     font-size: 15px;
 
 }
-@media query {
 
-}
 
 /* Mobile Responsive */
 

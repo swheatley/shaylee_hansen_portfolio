@@ -1,18 +1,10 @@
 
 
-body {
-    overflow-x: hidden;
+body {overflow-x: hidden;}
 
+p {font-size: 20px;}
 
-}
-
-p {
-    font-size: 20px;
-}
-
-p.small {
-    font-size: 16px;
-}
+p.small {font-size: 16px;}
 
 a,
 a:hover,
@@ -171,7 +163,7 @@ header .intro-text .skills {
 }
 
 section {
-    /*padding: 100px 0px */
+    /*padding: 100px 0px;*/
 }
 
 section h2 {
