@@ -28,24 +28,14 @@
 
     <div class="container-fluid">
         <div class="col-sm-12 col-md-12 col-lg-12">
-            <div class="row">
-                 <img id="idea" src="{% static 'images/pink_hair-gotit.png' %}">
+            <div class="row first-container">
                  <img id="stuck" src="{% static 'images/pink_girl_music.png' %}">
-                 <h1>Projects</h1> 
+                  <img id="idea" src="{% static 'images/pink_hair-gotit.png' %}">
+                 <h1>Beginner Projects</h1> 
             </div>
-
-           
-
-
-        <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <!--<h2>Portfolio</h2>-->
-                   
-                </div>
-            </div>
-            <div class="row">
+            <section id="portfolio">
+            <div class="container">
+                <div class="row">
 
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
@@ -87,10 +77,8 @@
                                 <p>HTMl & CSS & Bootstrap</p>
                             </div>
                         </div>
-                         <img style="width: 360px; height: 288px;" src="{% static 'images/grid.png' %}">  
-                        
-                        <a href="/grid"><p>Bootstrap Grid</p></a>
-                        
+                         <img style="width: 360px; height: 288px;" src="{% static 'images/grid.png' %}" class="img-responsive" alt="alt">  
+                          <a href="/grid"><p>Bootstrap Grid</p></a>    
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -100,7 +88,7 @@
                                  <p>HTMl & CSS & Bootstrap</p>
                             </div>
                         </div>
-                        <img style="width: 360px; height: 288px;"  src="{% static 'images/luigi.png' %}">
+                        <img style="width: 360px; height: 288px;"  src="{% static 'images/luigi.png' %}" class="img-responsive" alt="alt">
                         
                         <a href="/luigi"><p>Boostrap Luigi</p></a>
                        
@@ -128,157 +116,8 @@
 
             </div>
         </div>
-    </section>
-
-     <!--Portfolio Modals -->
-    <!--<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2 class="portfolio">Git Hub</h2>
-                            <img src="img/portfolio/Github2.png" class="img-responsive img-centered" alt="">
-                            <p><a href="https://github.com/swheatley">Github Account</p>
-                           
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Django Girls Tutorial and Extension: Blog</h2>
-                            <a href="blog.shayleehansen.com">Blog</a>
-                            <hr class="star-primary">
-                            
-                            <p></p>     
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Cereal App</h2>
-                            <hr class="star-primary">
-                            <p></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Django States</h2>
-                            <a href="http://firstdjango.shayleehansen.com">Django States</a>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                          <p></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
-
-
-
         
-
-
+    </section>
 </div>
 
         <!-- jQuery -->

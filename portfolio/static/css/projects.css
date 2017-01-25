@@ -3,6 +3,9 @@ body{
     font-family: 'Shadows Into Light', cursive;
     
 }
+
+
+
 h1{
     text-align: center;
     font-size: 70px;
@@ -29,4 +32,30 @@ li{
 }
 .caption-content p:hover{
     color: white;
+}
+
+@media(max-width: 1020px){
+        .first-container{
+            display: flex;
+            flex-direction: column;
+       
+      }
+      #stuck{
+        align-self: center;
+      }
+      
+}
+@media(max-width: 1020px){
+    #idea{
+        display: none;
+      }
+}
+@media(min-width: 1020px){
+    h1{
+
+        font-size: 56px;
+        color: white;
+        position: relative;
+        bottom: 105px;
+    }
 }
