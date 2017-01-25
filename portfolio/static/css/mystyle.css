@@ -100,6 +100,48 @@ h2{
 }
 
 /* Resume */
+
+.title-section > h2{
+  font-size: 70px;
+  text-align: center;
+  color: deeppink;
+}
+.title-section > h3 {
+  font-size: 26px;
+  text-align: center;
+  color: white;
+
+}
+.fa-github{
+ color: #fff;
+}
+.fa-user{
+  margin-left: 1%;
+}
+.project > p {
+  margin-left: 2%;
+}
+.project > p > a{
+  color: deeppink;
+  margin-left: 2%;
+}
+.organizations > p {
+  margin-left: 2%;
+}
+.organization > p > img{
+    margin-right: 2%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.code-languages{
+  font-sizew: 14px;
+  color: deeppink;
+  margin-left: 2%;
+}
+.details > p {
+   margin-left: 2%;
+}
 .main-content{
   display: flex;
   flex-direction: column;
