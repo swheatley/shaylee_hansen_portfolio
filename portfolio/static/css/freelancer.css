@@ -60,6 +60,7 @@ hr.star-light:after {
 
 hr.star-primary {
     border-color: white;
+    padding-bottom: 5%;
 }
 
 hr.star-primary:after {
@@ -169,6 +170,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    padding-top: 10%;
 }
 
 section.success {

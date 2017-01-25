@@ -38,20 +38,12 @@ header{
     background-color: rgb(0,0,0);
     width: 100%;
 }
-.pink, .btn-success{
-    background-color: hotpink;
-}
-h2{
-    color: white;
-}
-#about{
-    background-color: white;
 
-}
 
-.black,.portfolio{
-    color: black;
-}
+h2{color: white;}
+
+.black,.portfolio{color: black;}
+
 #about{
   display: flex;
   background-color: hotpink;
