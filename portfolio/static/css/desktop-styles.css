@@ -1,0 +1,27 @@
+/*----- Color and Fonts and Font Sizes ---- */
+/*----- Screen Sizes | Breakpints --- */
+@media (min-width: 1025px) {
+  .page-container .navbar-wrapper-section .main-nav {
+    height: 100px; }
+    .page-container .navbar-wrapper-section .main-nav .header-nav-items {
+      justify-content: center;
+      margin-top: 15px; }
+      .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
+        justify-content: center; }
+        .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items {
+          padding-left: 10px; }
+  .page-container .main-content .sections .large-image {
+    width: 960px;
+    height: 620px; }
+  .page-container .main-content .sections .small-images {
+    width: 316px;
+    height: 200px; } }
+
+@media (min-width: 1440px) {
+  .page-container .main-content .sections .large-image {
+    display: flex;
+    margin-left: 235px;
+    width: 944px; }
+  .page-container .main-content .sections .small-images {
+    width: 310px;
+    height: 200px; } }

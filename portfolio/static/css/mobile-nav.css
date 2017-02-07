@@ -1,0 +1,70 @@
+/*----- Color and Fonts and Font Sizes ---- */
+/*----- Screen Sizes | Breakpints --- */
+@media (min-width: 320px) and (max-width: 650px) {
+  .page-container .navbar-wrapper-section .top-nav {
+    display: none; }
+  .page-container .navbar-wrapper-section .main-nav {
+    border: solid 5px white; }
+    .page-container .navbar-wrapper-section .main-nav .snap-nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav {
+        display: flex;
+        position: relative;
+        right: 20px; }
+        .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav a {
+          text-decoration: none; }
+          .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav a .fa-bars {
+            color: #F9A11E; }
+          .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav a .fa-times {
+            display: none;
+            color: #F9A11E; }
+    .page-container .navbar-wrapper-section .main-nav .header-nav-items {
+      display: none;
+      justify-content: center; }
+      .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
+        font-size: 20px;
+        flex-wrap: wrap;
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction: column; }
+    .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper {
+      display: none;
+      justify-content: center;
+      padding-right: 5%; }
+      .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list {
+        display: flex;
+        padding-left: 25%;
+        list-style-type: none;
+        line-height: 5; }
+  .page-container .main-content .sections h1 {
+    font-size: 50px; }
+  .page-container .main-content .sections .large-image,
+  .page-container .main-content .sections .small-images {
+    width: 270px;
+    height: 200px;
+    border: solid 5px #0d223f; }
+  .page-container .main-content .sections .content-block {
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
+  .page-container footer {
+    flex-direction: column; }
+    .page-container footer .main-footer {
+      padding: 10%; }
+    .page-container footer .bottom-footer .turner-logo {
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: center; }
+    .page-container footer .bottom-footer .footer-nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      line-height: 2;
+      padding-right: 5%;
+      padding-left: 5%; } }
+
+@media (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .page-container #suites .suite-images .large-image {
+    width: 270px;
+    height: 200px;
+    border: solid 5px #0d223f; } }

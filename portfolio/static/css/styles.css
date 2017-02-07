@@ -1,0 +1,250 @@
+/*----- Color and Fonts and Font Sizes ---- */
+/*----- Screen Sizes | Breakpints --- */
+/* ----- Navbar Styles------ */
+.page-container {
+  background-image: url("../images/jazz_court.jpg");
+  background-size: cover;
+  background-position: 15% 15%;
+  background-attachment: fixed; }
+  .page-container .navbar-wrapper-section {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bree Serif", serif; }
+    .page-container .navbar-wrapper-section .top-nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-height: 40px; }
+      .page-container .navbar-wrapper-section .top-nav .top-header-items {
+        align-items: center;
+        display: flex;
+        list-style-type: none; }
+        .page-container .navbar-wrapper-section .top-nav .top-header-items .img-item {
+          position: absolute;
+          left: 20px;
+          top: 20px; }
+          .page-container .navbar-wrapper-section .top-nav .top-header-items .img-item #nba-logo {
+            width: 90px;
+            height: 15px; }
+        .page-container .navbar-wrapper-section .top-nav .top-header-items .nav-item-list {
+          list-style-type: none;
+          display: flex; }
+          .page-container .navbar-wrapper-section .top-nav .top-header-items .nav-item-list .nba-items {
+            font-size: 14px;
+            color: #007ed9;
+            text-transform: uppercase;
+            padding-left: 50px; }
+            .page-container .navbar-wrapper-section .top-nav .top-header-items .nav-item-list .nba-items a {
+              color: #007ed9;
+              text-decoration: none; }
+            .page-container .navbar-wrapper-section .top-nav .top-header-items .nav-item-list .nba-items :hover {
+              text-decoration: underline;
+              cursor: pointer; }
+    .page-container .navbar-wrapper-section .main-nav {
+      background-color: #0d223f;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      top: 0;
+      width: 100%;
+      transition: all 0.5s;
+      position: relative;
+      z-index: 1; }
+      .page-container .navbar-wrapper-section .main-nav .snap-nav-container .jazz-item #jazz-logo {
+        height: 92px;
+        width: 141px; }
+      .page-container .navbar-wrapper-section .main-nav .snap-nav-container .snap-nav {
+        display: none; }
+      .page-container .navbar-wrapper-section .main-nav .header-nav-items {
+        display: flex; }
+        .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
+          list-style-type: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap; }
+          .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items a {
+            color: white;
+            text-decoration: none; }
+          .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items :hover {
+            color: #F9A11E;
+            cursor: pointer; }
+      .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list {
+        display: flex;
+        list-style-type: none;
+        padding-right: 20%; }
+        .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list .social-items {
+          padding-left: 5px;
+          padding-right: 5px; }
+          .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list .social-items .btn-social {
+            width: 20px;
+            height: 20px;
+            font-size: 18px;
+            line-height: 45px; }
+            .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list .social-items .btn-social i {
+              background-color: #F9A11E;
+              color: white;
+              border-radius: 100%;
+              padding: 10px; }
+              .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list .social-items .btn-social i .fa {
+                width: 1.28571429em;
+                text-align: center; }
+            .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper .social-icon-list .social-items .btn-social :hover {
+              background-color: #153920;
+              border: solid 3px white;
+              cursor: pointer; }
+
+/* ------ Main Content Section ------- */
+.main-content {
+  font-family: "Bree Serif", serif; }
+  .main-content .suites {
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%; }
+    .main-content .suites h1 {
+      text-shadow: 1px 2px gold;
+      font-size: 60px; }
+    .main-content .suites .large-image {
+      border-top: 5px solid #0d223f;
+      border-right: 5px solid #0d223f;
+      border-left: 5px solid #0d223f;
+      border-bottom: 5px solid #0d223f;
+      width: 1024px;
+      height: 620px; }
+    .main-content .suites .small-images {
+      border: 3px solid #0d223f;
+      width: 340px;
+      height: 200px; }
+    .main-content .suites .content-block {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 1%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-family: "Bree Serif", serif;
+      margin-left: 8.5%;
+      margin-right: 8.5%;
+      padding: 5%; }
+      .main-content .suites .content-block .phone-number {
+        color: #F9A11E;
+        text-decoration: none; }
+    .main-content .suites .phone-number:hover {
+      text-decoration: underline; }
+  .main-content .lexus-club {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase; }
+    .main-content .lexus-club h1 {
+      text-shadow: 1px 2px gold;
+      font-size: 60px; }
+    .main-content .lexus-club .large-image {
+      border-top: 10px solid #0d223f;
+      border-right: 5px solid #0d223f;
+      border-left: 5px solid #0d223f;
+      border-bottom: 10px solid #0d223f;
+      max-width: 100%;
+      height: auto; }
+    .main-content .lexus-club .small-images {
+      border: 3px solid #0d223f;
+      width: 340px;
+      height: 200px; }
+    .main-content .lexus-club .content-block {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 1%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-family: "Bree Serif", serif;
+      margin-left: 8.5%;
+      margin-right: 8.5%;
+      padding: 5%; }
+      .main-content .lexus-club .content-block .phone-number {
+        color: #F9A11E;
+        text-decoration: none; }
+    .main-content .lexus-club .phone-number:hover {
+      text-decoration: underline; }
+  .main-content .executives-club {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5%; }
+    .main-content .executives-club h1 {
+      text-shadow: 1px 2px gold;
+      font-size: 60px; }
+    .main-content .executives-club .large-image {
+      border-top: 10px solid #0d223f;
+      border-right: 5px solid #0d223f;
+      border-left: 5px solid #0d223f;
+      border-bottom: 10px solid #0d223f;
+      max-width: 100%;
+      height: auto; }
+    .main-content .executives-club .small-images {
+      border: 3px solid #0d223f;
+      width: 340px;
+      height: 200px; }
+    .main-content .executives-club .content-block {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 1%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-family: "Bree Serif", serif;
+      margin-left: 8.5%;
+      margin-right: 8.5%;
+      padding: 5%; }
+      .main-content .executives-club .content-block .phone-number {
+        color: #F9A11E;
+        text-decoration: none; }
+    .main-content .executives-club .phone-number:hover {
+      text-decoration: underline; }
+
+/* ----- Footer ---- */
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Bree Serif", serif; }
+  footer .main-footer {
+    display: flex;
+    background-color: #0d223f;
+    padding: 5%;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    footer .main-footer a img {
+      width: 100px;
+      height: 100px; }
+  footer .bottom-footer {
+    align-items: center;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+    font-size: 12px; }
+    footer .bottom-footer p {
+      color: #fff;
+      padding-left: 10%;
+      padding-right: 10%;
+      line-height: 20px;
+      text-align: center; }
+    footer .bottom-footer .turner-logo {
+      color: #fff; }
+    footer .bottom-footer .footer-nav {
+      color: #fff;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around; }
+      footer .bottom-footer .footer-nav .f-nav-item {
+        padding-left: 20px;
+        list-style-type: none; }
+        footer .bottom-footer .footer-nav .f-nav-item a {
+          color: #fff;
+          text-decoration: none; }
+        footer .bottom-footer .footer-nav .f-nav-item :hover {
+          color: #F9A11E; }

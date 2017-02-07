@@ -1,0 +1,173 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Utah Jazz | Shaylee's Site</title>
+
+    <!-- CSS Files -->
+      <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/mobile-nav.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/tablet-styles.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/desktop-styles.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/variables.css' %}">
+
+    <!-- Font Awesome & Fonts -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Josefin+Slab|Sahitya" rel="stylesheet">
+
+    <!--build:js js/main.min.js  JAVASCRIPT-->
+      <script src="{% static 'js/main.js' %}"></script>
+      <script src="{% static 'js/vendor/smooth-scroll.js' %}"></script>
+      <script src="{% static 'js/vendor/smooth-scroll.min.js' %}"></script>
+
+
+    <!-- endbuild -->
+
+    <!-- Favicon Code -->
+    <link rel="icon" type="image/png" href="{% static 'images/Favicon/favicon-32x32.png' %}" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{% static 'images/Favicon/favicon-16x16.png' %}" sizes="16x16" />
+</head>
+
+<body>
+<div class="page-container">
+  <div class="navbar-wrapper-section">
+    <nav class="top-nav">
+        <div class="top-header-items">
+              <div  class="nba-items img-item">
+                <a href="http://www.nba.com/"><img id="nba-logo" src="{% static 'images/nba-logo.png' %}" alt="NBA Logo"></a>
+              </div>
+              <ul class="nav-item-list">
+                <li  class="nba-items"><a href="http://www.nba.com/global/" target="_blank">global</a></li>
+                <li  class="nba-items"><a href="http://www.nba.com/dleague/" target="_blank">d-league</a></li>
+                <li  class="nba-items"><a href="http://www.wnba.com" target="_blank">wnba</a></li>
+                <li  class="nba-items"><a href="http://www.nba.com/global/storelinkhandler.html" target="_blank">nba store</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="main-nav main-snap-nav">
+      <div class="snap-nav-container">
+        <div class="jazz-item">
+        <img id="jazz-logo" src="{% static 'images/jazz-logo.jpg' %}" alt="Jazz Logo" title="Jazz Logo">
+        </div>
+        <div class="snap-nav">
+          <a href="#"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+        <div class="header-nav-items">
+          <ul class="main-item-list">
+            <li class="main-items"><a href="http://www.nba.com/jazz/tickets" target="_blank">Tickets</a></li>
+            <li class="main-items"><a href="http://www.nba.com/jazz/schedule" target="_blank">Schedule</a></li>
+            <li class="main-items"><a href="http://www.nba.com/jazz/roster/grid" target="_blank">Team</a></li>
+            <li class="main-items"><a data-scroll  href="#suites">Suites</a></li>
+            <li class="main-items"><a data-scroll href="#lexus-club">Lexus Club</a></li>
+            <li class="main-items"><a data-scroll href="#executives-club">Executives Club</a></li>
+            <li class="main-items"><a href="http://www.nba.com/jazz/community" target="_blank">Community</a></li>
+            <li class="main-items"><a href="https://www.utahjazzstore.com/" target="_blank">Shop</a></li>
+          </ul>
+        </div>
+        <div class="social-icon-wrapper snap-nav-social">
+            <ul class="social-icon-list">
+                <li class="social-items"><a href="https://www.facebook.com/utahjazz" target="_blank" class="btn-social"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li class="social-items"><a href="https://twitter.com/utahjazz" target="_blank"  class="btn-social"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-items"><a href="http://instagram.com/utahjazz" target="_blank" class="btn-social"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="main-content">
+      <div class="sections">
+
+      <section id="suites" class="suites">
+        <h1>utah jazz suites</h1>
+        <div class="suite-images">
+          <img class="large-image" src="{% static 'images/Suites-Assets/guy-girl-suites-regular.jpg' %}" alt="Suites Image">
+          <img class="small-images" src="{% static 'images/Suites-Assets/cheering-crowd-suites.jpg' %}" alt="Suites Image">
+          <img class="small-images"  src="{% static 'images/Suites-Assets/food-table-suites.jpg' %}" alt="Suites Image">
+          <img class="small-images"  src="{% static 'images/Suites-Assets/people-suites-regular.jpg' %}" alt="Suites Image">
+        </div>
+        <div class="content-block">
+          <h2>the best way to enjoy all the excitement</h2>
+          <p>Bacon ipsum dolor amet shoulder pork drumstick strip steak pork chop picanha. Corned beef capicola ham pastrami pig, pork chop spare ribs short loin prosciutto ground round burgdoggen landjaeger rump bacon. Kevin cow brisket, flank leberkas pork belly shoulder ground round turducken sausage picanha filet mignon. Filet mignon short ribs spare ribs, pork belly bresaola kielbasa jerky turkey ribeye pig. Pork loin t-bone kielbasa, pork pancetta tenderloin beef ribs kevin rump corned beef meatloaf alcatra tongue ground round doner.
+          </p>
+          <h2>be a luxury suite holder</h2>
+          <p>
+            Filet mignon tongue ham chicken andouille cow. Rump strip steak andouille kevin jerky pork loin brisket. Beef ribs t-bone jerky prosciutto pig. Strip steak short loin pork belly boudin, beef capicola ball tip t-bone burgdoggen beef ribs bacon. Ham kielbasa drumstick chuck, pork belly landjaeger sirloin andouille frankfurter. Doner tail beef ribs meatloaf shank porchetta swine salami strip steak turkey ham hock flank drumstick pancetta. Kielbasa pork loin doner pork chop meatloaf venison jerky shankle frankfurter.
+          </p>
+          <p class="contact-info">For more information please call Chris Barney, Vice President - Premium
+            Seating and VIP Services at <a class="phone-number" href="tel:8013252323">801.325.2323</a>
+          </p>
+        </div>
+      </section>
+
+      <section id="lexus-club" class="lexus-club">
+        <h1>lexus club</h1>
+        <div class="lexus-images">
+          <img class="large-image" src="{% static 'images/Clubs-Assets/kids-lexus-club-grain.jpg' %}" alt="Lexus Club">
+          <img class="small-images" src="{% static 'images/Clubs-Assets/main-lexus-picture.jpg' %}" alt="Lexus Club">
+          <img class="small-images" src="{% static 'images/Clubs-Assets/arena-lexus-club.jpg' %}" alt="Lexus Club">
+          <img class="small-images" src="{% static 'images/Clubs-Assets/meat-lexus-club.jpg' %}" alt="Lexus Club">
+        </div>
+        <div class="content-block">
+          <h2>enjoy the game in style</h2>
+          <p>
+           Jowl landjaeger corned beef, alcatra rump shoulder hamburger prosciutto beef ribs ham andouille pastrami kielbasa. Pastrami andouille corned beef, shank ball tip hamburger spare ribs swine prosciutto shankle pancetta frankfurter bacon jowl. Pastrami pork loin turkey spare ribs kevin corned beef, pig tenderloin pancetta alcatra ribeye tri-tip. Pork filet mignon tail, pastrami pork belly kielbasa andouille venison shankle pork loin. Rump shank ribeye, leberkas bresaola sausage hamburger sirloin pork brisket jerky chuck capicola doner.
+          </p>
+          <p class="contact-info">For more information please call Chris Barney, Vice President - Premium
+            Seating and VIP Services at <a class="phone-number" href="tel:8013252323">801.325.2323</a>
+          </p>
+        </div>
+      </section>
+
+      <section id="executives-club" class="executives-club">
+        <h1>executives club</h1>
+        <div class="execuitves-images">
+          <img class="large-image" src="{% static 'images/Executives-Club-Assets/exec-arena-ex-club.jpg' %}" alt="Executives Club">
+          <img class="small-images" src="{% static 'images/Executives-Club-Assets/execs-eating-ex-club.jpg' %}" alt="Executives Club">
+          <img class="small-images" src="{% static 'images/Executives-Club-Assets/fish-place-exec-club.jpg' %}" alt="Executives Club">
+          <img class="small-images" src="{% static 'images/Executives-Club-Assets/exec-banner-ex-club.jpg' %}" alt="Executives Club">
+        </div>
+        <div class="content-block">
+          <h2>enjoy the game in style</h2>
+          <p>Meatloaf turkey meatball, hamburger drumstick andouille shoulder jerky pork loin kielbasa landjaeger bacon boudin. Sirloin sausage picanha spare ribs biltong pig, short loin cupim meatloaf porchetta ribeye. Porchetta filet mignon drumstick swine, ham hock brisket pork loin landjaeger cupim burgdoggen ground round shoulder ribeye. Chicken hamburger ball tip, drumstick pork belly kielbasa sausage strip steak filet mignon chuck cupim shank.
+          </p>
+          <p>
+            Chicken ribeye shoulder swine beef short ribs kevin turducken pastrami. Tail ball tip sausage pork loin pork shank, flank kevin bacon turkey ham hock shoulder spare ribs capicola pork chop. Salami shank frankfurter sausage, ground round pork chop short ribs. Ground round cupim brisket, pork chop jowl rump beef ribs turducken ball tip. Salami tenderloin jowl short ribs hamburger drumstick meatball shoulder capicola doner pork tongue. Turducken biltong tenderloin sirloin swine. Hamburger doner salami ground round turkey, swine frankfurter spare ribs.
+          </p>
+          <p class="contact-info">For more information please call Chris Barney, Vice President - Premium
+            Seating and VIP Services at <a class="phone-number" href="tel:8013252323">801.325.2323</a>
+          </p>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="main-footer">
+      <a href="#"><img src="https://tpc.googlesyndication.com/simgad/11575900747239368280"></a>
+      <a href="#"><img src="https://tpc.googlesyndication.com/simgad/6578744156465606042"></a>
+      <a href="#"><img src="https://tpc.googlesyndication.com/simgad/10888335920248124625"></a>
+      <a href="#"><img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/footer_loj_180x120.png"></a>
+      <a href="#"><img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/footer_44united_180x120.png"></a>
+      <a href="#"><img src="https://tpc.googlesyndication.com/simgad/14541151749608278297"></a>
+    </div>
+    <div class="bottom-footer">
+      <p>Copyright © 2017 NBA Media Ventures, LLC. All rights reserved.</p>
+      <div class="turner-logo">
+        NBA.com is part of Turner Sports Digital, part of the Turner Sports & Entertainment Digital Network.
+      </div>
+      <ul class="footer-nav">
+        <li class="f-nav-item"><a href="http://www.nba.com/careers/" target="_blank">Fan Relations FAQ</a></li>
+        <li class="f-nav-item"><a href="http://www.nba.com/careers/" target="_blank">Advertise on NBA.com</a></li>
+        <li class="f-nav-item"><a href="http://www.nba.com/careers/" target="_blank">NBA.com Help</a></li>
+        <li class="f-nav-item"><a href="http://www.nba.com/careers/" target="_blank">NBA Career Oppurtunites</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

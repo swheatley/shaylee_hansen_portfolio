@@ -16,11 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from django.conf import settings
-from django.conf.urls.static import static 
-from portfolio import views 
+from django.conf.urls.static import static
+from portfolio import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+
 
     # url(r'^$', 'portfolio.views.index'),
     url(r'^about-me-index/$', 'portfolio.views.about_me'),
@@ -28,13 +29,18 @@ urlpatterns = [
 
     # Projects
 
+    url(r'^index/$', 'portfolio.views.index'),
+
     url(r'^Projects/projects/$', 'portfolio.views.projects'),
     url(r'^google/$', 'portfolio.views.google'),
     url(r'^google_search/$', 'portfolio.views.google_search'),
+
 
     url(r'^luigi/$', 'portfolio.views.luigi_bootstrap'),
     url(r'^grid/$', 'portfolio.views.color_grid'),
     url(r'^j_streetfighter/$', 'portfolio.views.jquery_fighter'),
     url(r'^landing_page/$', 'portfolio.views.landing_page'),
-    
+
+   
+
 ]

@@ -1,0 +1,33 @@
+/*----- Color and Fonts and Font Sizes ---- */
+/*----- Screen Sizes | Breakpints --- */
+@media (min-width: 650px) and (max-width: 1020px) {
+  .page-container .navbar-wrapper-section .main-nav {
+    height: 100px;
+    flex-direction: row; }
+    .page-container .navbar-wrapper-section .main-nav .header-nav-items {
+      margin-top: 15px;
+      margin-right: 35%; }
+      .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list {
+        list-style-type: none;
+        flex-wrap: wrap;
+        flex-direction: column; }
+        .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list .main-items {
+          padding-left: 5px; }
+        .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list li:nth-child(7),
+        .page-container .navbar-wrapper-section .main-nav .header-nav-items .main-item-list li:nth-child(8) {
+          display: none; }
+    .page-container .navbar-wrapper-section .main-nav .social-icon-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      width: 132px; }
+  .page-container .main-content .sections h1 {
+    font-size: 55px; }
+  .page-container .main-content .sections .large-image {
+    width: 340px;
+    height: 256px; }
+  .page-container .main-content .sections .small-images {
+    width: 340px;
+    height: 260px; }
+  .page-container footer .bottom-footer .turner-logo {
+    padding-right: 20px;
+    padding-left: 20px; } }

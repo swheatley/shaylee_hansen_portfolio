@@ -53,3 +53,9 @@ def jquery_fighter(request):
 def landing_page(request):
     context = {}
     return render_to_response('Projects/landing_page.html', context, context_instance=RequestContext(request))
+
+
+def index(request):
+    context = {}
+    return render_to_response('Projects/index.html', context, context_instance=RequestContext(request))
+
